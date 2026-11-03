@@ -1,0 +1,57 @@
+.rapper {
+    display: grid;
+    grid-template-columns: 10vw 1fr 10vw;
+    grid-template-rows: 7vh 7vh 6vh 14vh  9vh 43vh 14vh;
+}
+
+
+/* With simple math I made 40% to 32vw so that I can scale the boxes proportionaly.
+Im also keeping the other procent to not mess up from procent to vw */
+
+.project-container {
+    display: grid;
+    grid-row: 5/8;
+    grid-column: 2;
+
+    grid-template-columns: 5% 32vw 10% 32vw 5%;
+    background-color: var(--boxBgClr);
+    border-radius: 20px;
+    box-shadow: 4px 4px 3px var(--shadow-col);
+}
+
+
+.title-desc {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: var(--alt-text-col);
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.pr {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 25% 1fr;
+    width: 85%;
+    height: 85%;
+    background-color: var(--boxClr);
+    border-radius: 12px;
+    text-align: center;
+    max-width: 95%;
+    box-shadow: 4px 4px 5px var(--shadow-col);
+    translate: 5px 5px;
+    transition: all 0.5s;
+}
+
+.pr-2 {
+    grid-column: 4;
+}
+
+.pr:hover {
+    width: 100%;
+    height: 100%;
+    translate: 0 0;
+    transition: all 0.5s;
+}
