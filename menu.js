@@ -13,7 +13,7 @@ space += "5%"
 
 for(let i = 1; i <= totProject; i++) {
     if (i != totProject) {
-    space += " 32vw 10%"
+    space += " 32vw 5%"
 } else {
     space += " 32vw"
 }

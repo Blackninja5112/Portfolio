@@ -45,14 +45,13 @@
 .pr {
     display: grid;
     grid-template-rows: 25% 1fr;
-    width: 85%;
-    height: 85%;
+    width: 95%;
+    height: 95%;
     background-color: var(--boxClr);
     border-radius: 12px;
     text-align: center;
     max-width: 95%;
     box-shadow: 4px 4px 5px var(--shadow-col);
-    translate: 5px 5px;
     transition: all 0.5s;
 }
 

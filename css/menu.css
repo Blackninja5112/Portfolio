@@ -1,7 +1,7 @@
 .rapper {
     display: grid;
     grid-template-columns: 10vw 1fr 10vw;
-    grid-template-rows: 7vh 7vh 6vh 14vh  9vh 43vh 14vh;
+    grid-template-rows: 10vh 4vh 10vh 10vh 9vh 43vh 14vh;
 }
 
 
@@ -26,7 +26,7 @@ Im also keeping the other procent to not mess up from procent to vw */
     text-decoration: underline;
     color: var(--alt-text-col);
     grid-column: 2;
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .pr {
@@ -34,24 +34,21 @@ Im also keeping the other procent to not mess up from procent to vw */
     grid-row: 2;
     display: grid;
     grid-template-rows: 25% 1fr;
-    width: 85%;
-    height: 85%;
+    width: 95%;
+    height: 95%;
     background-color: var(--boxClr);
     border-radius: 12px;
     text-align: center;
-    max-width: 95%;
+    max-width: 100%;
     box-shadow: 4px 4px 5px var(--shadow-col);
-    translate: 5px 5px;
+    translate: 0px 0px;
     transition: all 0.5s;
 }
 
-.pr-2 {
-    grid-column: 4;
-}
-
-.pr:hover {
+/* Only for pc vers */
+/* .pr:hover {
     width: 100%;
     height: 100%;
     translate: 0 0;
     transition: all 0.5s;
-}
+} */
