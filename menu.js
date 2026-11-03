@@ -6,7 +6,7 @@
 
 
 let projectCont = document.getElementById('project-container')
-let totProject = 2
+let totProject = 3
 
 let space = projectCont.style.gridTemplateRows;
 space += "5%"
