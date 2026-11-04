@@ -14,7 +14,7 @@ Im also keeping the other procent to not mess up from procent to vw */
     grid-column: 2;
     background-color: rgba(0, 195, 255, 0.144);
     border-radius: 20px;
-    box-shadow: 4px 4px 3px var(--shadow-col);
+    box-shadow: 5px 5px 3px var(--shadow-col);
 }
 
 
