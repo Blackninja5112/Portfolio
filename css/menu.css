@@ -19,6 +19,7 @@ Im also keeping the other procent to not mess up from procent to vw */
     box-shadow: 4px 4px 3px var(--shadow-col);
 }
 
+ 
 
 .title-desc {
     display: flex;

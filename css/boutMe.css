@@ -1,0 +1,46 @@
+.rapper {
+    display: grid;
+    grid-template-columns: 10vw 1fr 10vw;
+    grid-template-rows: 10vh 4vh 10vh 10vh 9vh 43vh 14vh;
+}
+
+
+/* With simple math I made 40% to 32vw so that I can scale the boxes proportionaly.
+Im also keeping the other procent to not mess up from procent to vw */
+
+.project-container {
+    display: grid;
+    grid-row: 5/7;
+    grid-column: 2;
+    background-color: rgba(0, 195, 255, 0.144);
+    border-radius: 20px;
+    box-shadow: 4px 4px 3px var(--shadow-col);
+}
+
+
+.title-desc {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: var(--alt-text-col);
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.text {
+    color: white;
+    font-weight: 900;
+    font-size: 21px;
+    font-style: italic;
+    margin: 5px;
+}
+
+
+
+/* Only for pc vers */
+/* .pr:hover {
+    width: 100%;
+    height: 100%;
+    translate: 0 0;
+    transition: all 0.5s;
+} */
