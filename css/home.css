@@ -83,3 +83,38 @@
     grid-row: 4;
     grid-column: 4;
 }
+
+
+
+
+@media (min-width: 768px) {
+
+    .rapper {
+        grid-template-columns: 3vw 1fr 1fr;
+    }
+
+    .pf {
+        letter-spacing: 2cqw;
+        translate: 5px;
+    }
+
+    .navbar-container {
+        translate: 75%;
+        grid-column: 2;
+    }
+
+    .navbar-container>a>img {
+    width: 50px;
+    }
+
+    .bgImg{
+        grid-column: 3;
+        grid-row: 1/8;
+        height: 100%;
+    }
+
+    .main-pr-containter {
+        max-width: 28vw;
+        translate: 40%;
+    }
+}
