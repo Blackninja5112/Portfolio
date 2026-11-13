@@ -30,11 +30,15 @@ Im also keeping the other procent to not mess up from procent to vw */
 .text {
     color: white;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 150%;
     font-style: italic;
     margin: 5px;
 }
 
+
+.bgImg {
+    display: none;
+}
 
 
 /* Only for pc vers */
@@ -44,3 +48,51 @@ Im also keeping the other procent to not mess up from procent to vw */
     translate: 0 0;
     transition: all 0.5s;
 } */
+
+
+@media (min-width: 768px) {
+
+    .rapper {
+        grid-template-columns: 3vw 1fr 1fr;
+    }
+
+    .pf {
+        letter-spacing: 2cqw;
+        translate: 5px;
+        grid-column: 3;
+    }
+
+    .navbar-container {
+        translate: 75%;
+        grid-column: 2;
+    }
+
+    .project-container {
+        grid-column: 3;
+    }
+
+    .navbar-container>a>img {
+    width: 50px;
+    }
+
+    .title-desc {
+        grid-column: 3;
+    }
+
+    .bgImg{
+        grid-column: 2;
+        grid-row: 1/8;
+        height: 100%;
+        display: block;
+    }
+
+    .main-pr-containter {
+        max-width: 28vw;
+        translate: 40%;
+    }
+
+    .text {
+        font-size: 30px;
+        margin: 50px;
+    }
+}

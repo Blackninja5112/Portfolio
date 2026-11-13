@@ -13,13 +13,13 @@ Im also keeping the other procent to not mess up from procent to vw */
     grid-row: 5/8;
     grid-column: 2;
 
-    grid-template-columns: 5% 32vw 10% 32vw 5%;
+    grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
     background-color: var(--boxBgClr);
     border-radius: 20px;
     box-shadow: 4px 4px 3px var(--shadow-col);
 }
 
- 
+ /* mobile: 5% 32vw 10% 32vw 5%  */
 
 .title-desc {
     display: flex;
@@ -53,3 +53,17 @@ Im also keeping the other procent to not mess up from procent to vw */
     translate: 0 0;
     transition: all 0.5s;
 } */
+
+
+@media (min-width: 768px) {
+    .navbar-container {
+        position: absolute;
+        height: 80px;
+        width: 30%;
+        left: 50%;
+        translate: -50%;
+        gap: 5px;
+        bottom: 20px;
+    }
+
+}

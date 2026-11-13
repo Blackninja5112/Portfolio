@@ -100,3 +100,41 @@ Im also keeping the other procent to not mess up from procent to vw */
     transition: all 0.5s;
 } */
 
+.bgImg {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .rapper {
+        grid-template-columns: 3vw 1fr 1fr;
+    }
+
+    .pf {
+        letter-spacing: 2cqw;
+        translate: 5px;
+    }
+
+    .navbar-container {
+        translate: 75%;
+        grid-column: 2;
+    }
+
+    .navbar-container>a>img {
+    width: 50px;
+    }
+
+    .bgImg{
+        grid-column: 3;
+        grid-row: 1/8;
+        height: 100%;
+        visibility: visible;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .main-pr-containter {
+        max-width: 28vw;
+        translate: 40%;
+    }
+}
