@@ -30,6 +30,11 @@ Im also keeping the other procent to not mess up from procent to vw */
     grid-row: 4;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .pr {
     grid-column: 2;
     grid-row: 2;
@@ -64,6 +69,15 @@ Im also keeping the other procent to not mess up from procent to vw */
         translate: -50%;
         gap: 5px;
         bottom: 20px;
+    }
+
+
+    .pr>h4 {
+        font-size: 200%;
+    }
+
+    .pr>p {
+        font-size: 150%;
     }
 
 }
